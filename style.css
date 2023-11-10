@@ -85,7 +85,6 @@ h1{
     width: 0;
     /*都設定成0更容易調整三角形部分*/
     justify-content: center;
-    display: inline-flex;
 }
 .SkyLantern{
     /*天燈?*/
@@ -95,7 +94,6 @@ h1{
     /*留白處的高 寬*/
     height: 60px;
     width: 60px;
-    display: inline-flex;
 }
 .triangle-4{
     /*等腰三角形*/
@@ -104,5 +102,4 @@ h1{
     border-width: 60px 15px 60px 15px;
     height: 0px;
     width: 0px;
-    display: inline-flex;
 }
