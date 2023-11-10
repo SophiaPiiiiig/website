@@ -1,0 +1,76 @@
+h1{
+    color:red;
+}
+*{
+    padding:0;
+    margin:10px;
+    box-sizing: border-box;
+  }
+/* div{
+    width: 50vw;
+    height: 50vh;
+    background: black;
+    border: solid 20px red;
+} */
+.container>div{
+    /*div裡面每層都附加屬性*/
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin:20px;
+}
+.container {
+    display: flex;
+    /* 左至右排 */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* 左右置中 */
+    align-items: center;
+    /* 上下置中 */
+}
+/* 外元素排版 */
+.main{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1;
+    /* flex是flex-grow和flex-shrnk的合體 */
+    /* main的部分佔其中剩下一等分 */
+}
+.circle{
+    border-width: 3px;
+    border-style: dotted;
+  
+    border: dotted 3px rgb(196, 156, 24);
+    outline: 5px solid white;
+    border-radius:90% 100% 90% 90%;
+}
+.stair{
+    /*梯形*/
+    display: inline-block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-color:transparent transparent lightblue transparent;
+    border-style: solid solid solid solid;
+    border-width: 30px;
+}
+.triangle{
+    /*不是正三角形的正三角形*/
+    display: inline-block;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    border-color:transparent pink lightblue transparent;
+    border-style: solid;
+    border-width: 50px;
+}
+.triangle-1{
+    display: inline-block;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    border-color:lightblue lightblue pink pink;
+    border-style: solid;
+    border-width: 50px;
+}
