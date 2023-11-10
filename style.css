@@ -76,15 +76,16 @@ h1{
     border-width: 50px;
 }
 .triangle-3{
-    /*對話框?*/
+    /*獎框?*/
     border-color: pink lightblue transparent lightblue;
     border-style: solid;
     border-width: 100px 50px;
     /*高 寬*/
     height: 20;
-    width: 20;
+    width: 0;
     /*都設定成0更容易調整三角形部分*/
-    display:inline-flex;
+    justify-content: center;
+    display: inline-flex;
 }
 .SkyLantern{
     /*天燈?*/
